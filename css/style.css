@@ -69,7 +69,12 @@ img{
 .container #cerca{
 	border: none;
 }
-@media screen and (min-width: 1286px){
+
+.hamburger-menu{
+	display: none;
+}
+
+@media screen and (min-width: 800px){
 	.container #login{
 		display: inline;
 	}
@@ -79,34 +84,12 @@ img{
 
 }
 
-@media screen and(min-width: 1000px){
-	.navbar{
-		position: relative;
-		width: 1000px;
+@media screen and (max-width: 1283px){
+	.container .hidable{
+		display: none;
 	}
-	.container #sezioni{
-		width: 8%;
-	}
-	.container #edloc{
-		width: 10%;
-	}
-	.container #tv{
-		width: 8%;
-	}
-	.container #archivio{
-		width: 6%;
-	}
-	.container #trovocasa{
-		width: 7.4%;
-	}
-	.container #trovolavoro{
-		width: 8.8%
-	}
-	.container #cruciverba{
-		width: 7.5%;
-	}
-	.container #sezioni{
-		width: 9%;
+	#archivio{
+		border-right: none;
 	}
 }
 
@@ -233,7 +216,7 @@ h2{
 
 @media screen and (max-width: 1350px){
 	.left-container{
-		width: 100%;
+		width: 80%;
 	}
 }
 
@@ -250,10 +233,10 @@ h2{
 	margin: 70px 10px 10px 10px;
 }
 
-@media screen and (max-width: 1350px){
+@media screen and (max-width: 800px){
 	.right-container{
 		float: left;
-		width: 60%;
+		width: 80%;
 	}
 }
 /* END Regole right content*/
@@ -295,7 +278,7 @@ h2{
 
 }
 
-@media screen and (max-width: 1286px){
+@media screen and (max-width: 800px){
 	.footer-settings{
 		display: inline;
 	}
